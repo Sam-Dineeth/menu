@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(logoo.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Center the logo */
+    width: 150px; /* Adjust size as needed */
+}
+
+h1 {
+    text-align: center;
+    text-decoration-color: azure;
+    background-color: darkgrey;
+}
+
+h2{
+    background-color: beige;
+}
+
+h3{
+    background-color: darkgray;
+}
+.menu {
+    margin-top: 20px;
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.menu-table th,
+.menu-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.menu-table th {
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.menu-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra stripes */
+}
+
+.menu-table tr:hover {
+    background-color: #ddd; /* Row hover effect */
+}
+
+.menu-table tr td input[type=checkbox] {
+    transform: scale(1.5); /* Make checkboxes larger */
+}
+
+/* Multi-color effect for table rows */
+.menu-table tr:nth-child(odd) {
+    background-color: #ffcccb; /* Light red for odd rows */
+}
+
+.menu-table tr:nth-child(3n) {
+    background-color: #add8e6; /* Light blue for every third row */
+}
+
+/* Add transition for smooth hover effect */
+.menu-table tr {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.total-amount {
+    margin-top: 20px;
+    font-size: 18px;
+}
